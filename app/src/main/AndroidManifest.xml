@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.angel">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:usesCleartextTraffic="true"
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".GuideActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"></activity>
+        <activity android:name="com.example.weather.WeatherActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".MenstruationAnalyze">
+
+        </activity>
+        <activity android:name="com.example.weight.FirstActivity">
+
+        </activity>
+        <activity android:name="com.example.weight.SecondActivity"></activity>
+        <activity
+            android:name=".SetMenstruationDate"
+            android:label="@string/app_name"></activity>
+    </application>
+
+</manifest>

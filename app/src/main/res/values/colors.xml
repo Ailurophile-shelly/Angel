@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray_bg">#F6F6F6</color>
+    <color name="theme_color">#FE6895</color>
+    <color name="line_color">#D3D3D5</color>
+    <color name="black_text">#1B1B1B</color>
+    <color name="gray_text">#BBBBBB</color>
+    <color name="black_gray_text">#666666</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#C50000</color>
+    <color name="pink_text">#FE6E5D</color>
+    <color name="green">#5EE386</color>
+    <color name="gray_white">#F5F5F5</color>
+    <color name="antenatal_training_text">#fc6995</color>
+    <color name="music_list_item_text">#999999</color>
+    <color name="seekbar_back">#a7a7a7</color>
+    <color name="login_edit">#ffcada</color>
+    <color name="dym_textcolor">#a9a9a9</color>
+
+    <color name="done">#43F2AB</color>
+    <color name="outmoded">#FE0F0F</color>
+    <color name="oneself">#7B56FF</color>
+    <color name="must">#FC77A0</color>
+    <color name="possess">#999999</color>
+    <color name="period">#FE8FB0</color>
+    <color name="forecast">#FEB9CE</color>
+    <color name="safety">#9DF96F</color>
+    <color name="risk">#FFF370</color>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Angel</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="menstruation">大姨妈</string>
+    <string name="menstruation_analyze">大姨妈分析</string>
+    <string name="cycle">平均周期：</string>
+    <string name="sustain">平均经期：</string>
+    <string name="analyze">分析</string>
+    <string name="suggest">建议</string>
+    <string name="detail">详情</string>
+</resources>

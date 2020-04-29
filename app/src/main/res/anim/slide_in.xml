@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--translate,画面转换位置移动效果
+    duration  属性为动画持续时间，毫秒
+    -->
+    <translate
+        android:fromXDelta="0"
+        android:fromYDelta="100%"
+        android:toXDelta="0"
+        android:duration="200"
+        android:toYDelta="0" >
+    </translate>
+
+</set>

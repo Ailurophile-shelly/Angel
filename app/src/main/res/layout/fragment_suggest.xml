@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:padding="5dp"
+                android:background="@drawable/dym_jy"
+                android:text="轻微痛经"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_gray_text"
+                android:textSize="14sp"
+                android:layout_marginTop="32dp"
+                android:text="健康分析"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_text"
+                android:minHeight="50dp"
+                android:textSize="10sp"
+                android:layout_marginTop="8dp"
+                android:text="月经量较多，有轻微痛经。"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_gray_text"
+                android:textSize="14sp"
+                android:text="健康建议"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_text"
+                android:textSize="10sp"
+                android:layout_marginTop="8dp"
+                android:minHeight="50dp"
+                android:text="劳逸适度 经期失血可导致气血损耗，机体易感疲劳，故不宜作超越本身体力的劳动或作剧烈运动并应保证充足的睡眠，应保持充足的精力。"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

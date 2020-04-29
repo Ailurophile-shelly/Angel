@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <declare-styleable name="WEYTitle">
+        <!--reference,参考某一资源id-->
+       <attr name="centerText" format="reference|string"></attr>
+        <attr name="centerImage" format="reference"></attr>
+        <attr name="centerTextColor" format="reference|color"></attr>
+        <attr name="leftText" format="reference|string"></attr>
+        <attr name="leftTextColor" format="reference|color"></attr>
+        <attr name="leftImage" format="reference"></attr>
+        <attr name="rightText" format="reference|string"></attr>
+        <attr name="rightTextColor" format="reference|color"></attr>
+        <attr name="rightImage" format="reference"></attr>
+        <attr name="leftIsBack" format="boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="DegreeView">
+        <attr name="textName" format="reference|string"></attr>
+        <attr name="textcolor" format="reference|color"></attr>
+        <attr name="leImage" format="reference"></attr>
+        <attr name="virtualImage" format="reference"></attr>
+        <attr name="factImage" format="reference"></attr>
+    </declare-styleable>
+</resources>

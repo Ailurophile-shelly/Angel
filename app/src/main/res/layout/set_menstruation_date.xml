@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical">
+
+    <com.example.view.WFYTitle
+        style="@style/wfy_title"
+        app:centerText="Angel"
+        app:leftImage="@drawable/back"
+        app:leftIsBack="true"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="9dp"
+        android:paddingTop="9dp"
+        android:background="#66FD9897">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="最近一次月经时间："
+            android:textSize="18sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:id="@+id/et_last_menstruation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="12dp"
+            android:textSize="18sp"
+            android:textColor="#ffff"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="9dp"
+        android:paddingTop="9dp"
+        android:background="#66FD9897">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生理经期天数："
+            android:textSize="18sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:id="@+id/et_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="12dp"
+            android:textSize="16sp"
+            android:textColor="#fff"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="9dp"
+        android:paddingTop="9dp"
+        android:background="#66FD9897">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生理周期天数:"
+            android:textSize="18sp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:id="@+id/et_cycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="12dp"
+            android:textSize="18sp"
+            android:textColor="#fff"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <TextView
+        android:id="@+id/tv_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCFD9897"
+        android:clickable="true"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingBottom="9dp"
+        android:paddingTop="9dp"
+        android:text="完成"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:typeface="monospace" />
+
+</LinearLayout>
